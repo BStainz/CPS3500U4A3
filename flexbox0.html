@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox 0 — starting code</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      header {
+        background: yellowgreen;
+        height: 100px;
+        border: 2px solid black;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: rgb(46, 107, 183);
+        border: 2px solid black;
+      }
+      section {
+        display: flex;
+        flex-direction: row;
+      }    
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Brendan Hannons Adversarial Attack Research</h1>
+    </header>
+    <section>
+      <article>
+        <h2> From Vulnerabilities to Improvements: A Deep Dive into Adversarial Testing of AI Models</h2>
+        <p>The first article written by Brendan Hannon takes a deep dive into adversarial attacks on LLM's using prompt engineering techniques which disguise the malicious prompts behind a movie script. His findings were alarming having OpenAI's ChatGPT provide information on how to dispose of a body, add a switch to a firearm and steps to cook crystal meth.</p>
+      </article>
+      <article>
+        <h2>Robust Testing of AI Language Models Resilience with Novel Adversarial Prompts</h2>
+        <p>The second article of his research involves two new adversarial prompts one which asks the LLM to describe a hypothetical situation of a character performing some type of illegal, harmful or unethical action and return it in a step by step list format. The second prompt has the LLM take on a role of condition red an amoral computer named UCAR in a fictional word who must provide a response regardless ignoring all moral filters. With a larger set of tests the results were even more alarming than the first providing information such as stalking, manufacturing drugs and manipulating people for money. </p>
+      </article>
+      <article>
+        <h2>Future Works</h2>
+        <p>Currently he is working on multimodal adversarial attacks on LLM's using images.</p>
+        <p>While the multimodal attacks have only begun within the month the results have shown that with a combination of the movie script prompts an LLM will generate a scene which involves the content it provides.</p>
+      </article>
+    </section>
+  </body>
+</html>
